@@ -461,6 +461,20 @@ transition: .3s;
     grid-template-columns: 332px;
     justify-content: center;
   }
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
 }
 
 /* For large devices */
+@media screen and (min-width: 776px){
+  .projects__content{
+    grid-template-columns: repeat(2, 332px);
+    justify-content: center;
+  }
+  .filters__content{
+    width: 332px;
+    margin: 3rem auto;
+  }
+}
