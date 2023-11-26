@@ -467,14 +467,16 @@ transition: .3s;
   }
 }
 
-/* For large devices */
 @media screen and (min-width: 776px){
-  .projects__content{
+  .projects__content,
+  .skills__content{
     grid-template-columns: repeat(2, 332px);
-    justify-content: center;
   }
-  .filters__content{
-    width: 332px;
-    margin: 3rem auto;
+
+  .skills__content{
+    justify-content: center;
+    column-gap: 3rem;
   }
 }
+
+/* For large devices */
