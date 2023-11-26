@@ -514,6 +514,23 @@ transition: .3s;
   .profile__info{
     column-gap: 3rem;
   }
-  
+  .profile__info-description{
+  font-size: var(--small-font-size);
+  }
+  .profile___buttons{
+  column-gap: 2rem;
+  }
+  .projects__content{
+  gap: 2rem 3rem;
+  }
+  .projects___modal{
+    padding: 1.5rem;
+  }
+
+  .skills__tilte{
+    font-size: var(--normal-font-size);
+    margin-bottom: 2.5rem;
+  }
+
 
 }
