@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== FAVICON ===============-->
+        <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+        
+        <!--=============== REMIX ICONS ===============-->
+        <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+        
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Mini portfolio website - Bedimcode</title>
+    </head>
+    <body>
+        <!--=============== HEADER PROFILE ===============-->
+        <header class="profile container">
+
+            <i class="ri-moon-clear-line change-theme" id="theme-button"></i>
+
+            <div class="profile__container grid">
+                <div class="profile__data">
+                    <div class="profile__border">
+                        <div class="profile__prefil">
+                            <img src="assets/img/perfil.png" alt="">
+                        </div>
+                    </div>
+
+                    <h2 class="profile__name">Hubert Kolejko</h2>
+                    <h3 class="profile__proffesion">Graphic Designer</h3>
+
+                    <div class="profile__social">
+                        <a href="https://www.linkedin.com/in/hubert-kolejko-2b2345208/" target="_blank"  class="profile__social-link">
+                            <i class="ri-linkedin-box-fill"></i>
+                        </a>
+                        <a href="https://www.facebook.com/hubert.kolejko/" target="_blank"  class="profile__social-link">
+                            <i class="ri-facebook-box-fill"></i>
+                        </a>
+                        <a href="https://github.com/GhostekTheGuy" target="_blank"  class="profile__social-link">
+                            <i class="ri-github-fill"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="profile__info grid">
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">4</h3>
+                        <p class="profile__info-description">
+                            Years of <br> work</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+200</h3>
+                        <p class="profile__info-description">
+                            Completed <br> projects</p>
+                    </div>
+                    <div class="profile__info-group">
+                        <h3 class="profile__info-number">+100</h3>
+                        <p class="profile__info-description">
+                            Satisfied <br> customers</p>
+                    </div>
+                </div>
+
+                <div class="profile__buttons">
+                    <a download="" href="assets/pdf/cv.pdf" class="button">
+                        Download CV <i class="ri-download-2-line"></i>
+                    </a>
+
+                    <div class="profile_buttons-small">
+                        <a href="" target="_blank" class="button button__small button__gray">
+                            <i class="ri-whatsapp-fill"></i>
+                        </a>
+                        <a href="https://m.me/hubert.kolejko" target="_blank" class="button button__small button__gray">
+                            <i class="ri-messenger-fill"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!--=============== MAIN ===============-->
+        <main class="main">
+            <section class="filters container">
+                <!--=============== FILTERS TABS ===============-->
+                <ul class="filters__content">
+                    <button class="fliters__button" data-target="#projects">
+                        Projects
+                    </button>
+                    <button class="fliters__button" data-target="#skills">
+                        Skills
+                    </button>
+                </ul>
+                <div class="filters__sections">
+                    <!--=============== PROJECTS ===============-->
+                    <div class="projects__content grid filters__activate" data-content id="projects">
+                        <article class="projects__card">
+                            <img src="assets/img/project1.png" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Fashion</span>
+                                    <h3 class="projects__title">Alien Eggs</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-links-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                        <article class="projects__card">
+                            <img src="assets/img/project2.png" alt="" class="projects__img">
+                            <div class="projects__modal">
+                                <div>
+                                    <span class="projects__subtitle">Fb Ads</span>
+                                    <h3 class="projects__title">Bussines thumbnail</h3>
+                                    <a href="#" class="projects__button button button__small">
+                                        <i class="ri-links-line"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </article>
+                    </div>
+                    
+
+                    <!--=============== SKILLS ===============-->
+                    <div class="skills__content grid filters__activate" data-content id="skills>
+                        <div class="skills__area">
+                            <h3 class="skills__tilte">
+                                Graphic Designer
+                            </h3>
+                            
+                            <div class="skills__box">
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Photoshop</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Illustrator</h3>
+                                            <span class="skills__level">Advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="skills__group">
+                                    <div class="skills__data">
+                                        <i class="ri-checkbox-circle-line"></i>
+
+                                        <div>
+                                            <h3 class="skills__name">Figma</h3>
+                                            <span class="skills__level">Medium advanced</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="skills__area">
+                                <h3 class="skills__tilte">
+                                    Frontend Developer
+                                </h3>
+                                
+                                <div class="skills__box">
+                                    <div class="skills__group">
+                                        <div class="skills__data">
+                                            <i class="ri-checkbox-circle-line"></i>
+    
+                                            <div>
+                                                <h3 class="skills__name">CSS</h3>
+                                                <span class="skills__level">Inter</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills__group">
+                                        <div class="skills__data">
+                                            <i class="ri-checkbox-circle-line"></i>
+    
+                                            <div>
+                                                <h3 class="skills__name">HTML</h3>
+                                                <span class="skills__level">Medium</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="skills__group">
+                                        <div class="skills__data">
+                                            <i class="ri-checkbox-circle-line"></i>
+    
+                                            <div>
+                                                <h3 class="skills__name">Git</h3>
+                                                <span class="skills__level">Medium advanced</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer container">
+            <span>
+                &#169; Hubert Kolejko. All rights reserved
+            </span>
+            
+        </footer>
+
+        <!--=============== SCROLLREVEAL ===============-->
+        <script src=""></script>
+
+        <!--=============== MAIN JS ===============-->
+        <script src="assets/js/main.js"></script>
+
+        <script>
+            const projectsButton = document.querySelector('.fliters__button[data-target="#projects"]');
+            const skillsButton = document.querySelector('.fliters__button[data-target="#skills"]');
+            const projectsSection = document.querySelector('.projects__content');
+            const skillsSection = document.querySelector('.skills__content');
+        
+            projectsButton.addEventListener('click', () => {
+                projectsSection.style.display = 'grid';
+                skillsSection.style.display = 'none';
+            });
+        
+            skillsButton.addEventListener('click', () => {
+                skillsSection.style.display = 'grid';
+                projectsSection.style.display = 'none';
+            });
+        </script>
+    </body>
+</html>
