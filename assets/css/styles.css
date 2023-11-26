@@ -475,20 +475,22 @@ transition: .3s;
 
 /* For large devices */
 
-@media screen and (min-width: 992px){
-  container{
+@media screen and (min-width: 992px) {
+  .container {
     margin-left: auto;
     margin-right: auto;
   }
 
-  .change-theme{
+  .change-theme {
     top: 2.5rem;
     right: 2.5rem;
   }
-  profile{
+
+  .profile {
     padding-top: 4rem;
   }
-  .profile__border{
+
+  .profile__border {
     width: 135px;
     height: 135px;
     margin-bottom: 1rem;
@@ -496,48 +498,53 @@ transition: .3s;
     margin-right: auto;
   }
 
-  .profile__perfil{
+  .profile__perfil {
     width: 120px;
     height: 120px;
     margin-left: auto;
     margin-right: auto;
   }
 
-  .profile__prefil img{
+  .profile__prefil img {
     width: 90px;
   }
-  .profile__profession{
+
+  .profile__profession {
     margin-bottom: 1.5rem;
   }
-  .profile__info{
+
+  .profile__info {
     column-gap: 3rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .profile__info-description{
+
+  .profile__info-description {
     font-size: var(--small-font-size);
   }
-  .profile___buttons{
+
+  .profile___buttons {
     column-gap: 2rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .projects__content{
+
+  .projects__content {
     gap: 2rem 3rem;
     margin-left: auto;
     margin-right: auto;
   }
-  .projects___modal{
+
+  .projects___modal {
     padding: 1.5rem;
   }
 
-  .skills__tilte{
+  .skills__tilte {
     font-size: var(--normal-font-size);
     margin-bottom: 2.5rem;
   }
 
-  .footer__copy{
+  .footer__copy {
     margin: 4.5rem 0 2.5rem;
   }
-
 }
