@@ -308,8 +308,6 @@ box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
   position: relative;
   border-radius: 1rem;
   overflow: hidden;
-  widows: 320px;
-  height: 320px;
 }
 
 .projects__card img{
