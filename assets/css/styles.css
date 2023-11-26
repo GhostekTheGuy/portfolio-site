@@ -468,9 +468,16 @@ transition: .3s;
   }
 }
 
-@media screen and (min-width: 776px){
-  .projects__content{
-    grid-template-columns: repeat(2, 332px);
+@media screen and (min-width: 576px) {
+  .skills__box {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    column-gap: 3rem;
+  }
+
+  .skills__group {
+    width: 48%; /* or adjust as needed to leave space for the gap */
   }
 }
 
