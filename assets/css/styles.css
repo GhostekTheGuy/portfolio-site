@@ -299,7 +299,7 @@ box-shadow: 0 8px 24px hsla(var(--hue), var(--sat), var(--lig), .25);
 
 .fliters__button:hover{
   background-color: gray;
-  transition: background-color 0.3s;
+  transition: none;
 }
 
 
