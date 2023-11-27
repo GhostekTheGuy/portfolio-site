@@ -436,7 +436,7 @@ transition: .3s;
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
-@media screen and (max-width: 320px){
+@media screen and (min-width: 320px){
   .container{
     margin-left: 1rem;
     margin-right: 1rem;
@@ -447,8 +447,8 @@ transition: .3s;
   }
 
   .profile__buttons{
-    flex-direction: column;
-    row-gap: 1rem;
+    size-adjust: 6rem;
+    row-gap: 1.5rem;
   }
 
   .skills__box{
@@ -456,9 +456,21 @@ transition: .3s;
   }
 
   .filters__content{
-    padding: auto;
-    margin: 4rem;
+    border-radius: 1rem;
+    margin: 2rem;
   }
+  .fliters__button {
+    width: 90%;
+    outline: none;
+    padding: 1.3rem;
+    color: var(--title-color);
+    font-size: var(--h2-font-size);
+    font-family: var(--body-font);
+    border-radius: 1rem;
+    cursor: pointer;
+    background-color: transparent;
+    transition: .3s;
+}
 }
 
 /* For medium devices */
