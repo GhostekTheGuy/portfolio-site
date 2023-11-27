@@ -454,6 +454,11 @@ transition: .3s;
   .skills__box{
     column-gap: 1rem;
   }
+
+  .filters__content{
+    padding: auto;
+    margin: 4rem;
+  }
 }
 
 /* For medium devices */
