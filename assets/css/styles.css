@@ -148,9 +148,7 @@ body.dark-theme{
 .profile__prefil{
   width: 100px;
   height: 100px;
-  background: linear-gradient(180deg,
-hsla(var(--hue), var(--sat), var(--lig), 1) 0%, 
-hsla(var(--hue), var(--sat), var(--lig), .2) 100%);
+  background: white;
   border-radius:  50%;
   overflow: hidden;
   display:  flex;
