@@ -524,7 +524,8 @@ transition: .3s;
   }
 
   .profile__prefil img {
-    width: 90px;
+    width: 120px;
+    transition: 3s;
   }
 
   .profile__profession {
